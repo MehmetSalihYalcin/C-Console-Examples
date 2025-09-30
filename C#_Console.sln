@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-3 Sayı Tahmini", "Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-4 Kullanıcı Giriş Sistemi", "Test-4 Kullanıcı Giriş Sistemi\Test-4 Kullanıcı Giriş Sistemi.csproj", "{93287185-137E-4BC6-A15A-BCBE44397562}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-5 FizzBuzz", "Test-5 FizzBuzz\Test-5 FizzBuzz.csproj", "{C328CFD4-650A-4CF2-9AE1-B065CF4DAF85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{93287185-137E-4BC6-A15A-BCBE44397562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93287185-137E-4BC6-A15A-BCBE44397562}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93287185-137E-4BC6-A15A-BCBE44397562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C328CFD4-650A-4CF2-9AE1-B065CF4DAF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C328CFD4-650A-4CF2-9AE1-B065CF4DAF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C328CFD4-650A-4CF2-9AE1-B065CF4DAF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C328CFD4-650A-4CF2-9AE1-B065CF4DAF85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
