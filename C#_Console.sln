@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-4 Kullanıcı Giriş S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-5 FizzBuzz", "Test-5 FizzBuzz\Test-5 FizzBuzz.csproj", "{C328CFD4-650A-4CF2-9AE1-B065CF4DAF85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-6 Asal Sayı Kontrolü", "Test-6 Asal Sayı Kontrolü\Test-6 Asal Sayı Kontrolü.csproj", "{764EE59A-3056-46C2-B787-E17AB90E27E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C328CFD4-650A-4CF2-9AE1-B065CF4DAF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C328CFD4-650A-4CF2-9AE1-B065CF4DAF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C328CFD4-650A-4CF2-9AE1-B065CF4DAF85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764EE59A-3056-46C2-B787-E17AB90E27E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764EE59A-3056-46C2-B787-E17AB90E27E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764EE59A-3056-46C2-B787-E17AB90E27E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764EE59A-3056-46C2-B787-E17AB90E27E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
