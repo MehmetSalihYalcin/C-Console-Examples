@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-1 Merhaba Dünya", "Test-1 Merhaba Dünya\Test-1 Merhaba Dünya.csproj", "{CEDBE1A6-C3E9-4211-BE0B-2E6097E232E6}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-5 FizzBuzz", "Test-5 FizzBuzz\Test-5 FizzBuzz.csproj", "{C328CFD4-650A-4CF2-9AE1-B065CF4DAF85}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-6 Asal Sayı Kontrolü", "Test-6 Asal Sayı Kontrolü\Test-6 Asal Sayı Kontrolü.csproj", "{764EE59A-3056-46C2-B787-E17AB90E27E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-7 Karekök Hesaplama", "Test-8 Karekök Hesaplama\Test-7 Karekök Hesaplama.csproj", "{281F9418-F484-4454-A0EF-0F5D6B0D67E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{764EE59A-3056-46C2-B787-E17AB90E27E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{764EE59A-3056-46C2-B787-E17AB90E27E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{764EE59A-3056-46C2-B787-E17AB90E27E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281F9418-F484-4454-A0EF-0F5D6B0D67E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281F9418-F484-4454-A0EF-0F5D6B0D67E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281F9418-F484-4454-A0EF-0F5D6B0D67E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281F9418-F484-4454-A0EF-0F5D6B0D67E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
