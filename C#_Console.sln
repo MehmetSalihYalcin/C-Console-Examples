@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-10 Kelime Sayacı", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-11 Palindrom", "Test-11 Palindrom\Test-11 Palindrom.csproj", "{17F3367E-618B-4999-8BF3-643ACD5FB411}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-12 Fibonacci Serisi", "Test-12 Fibonacci Serisi\Test-12 Fibonacci Serisi.csproj", "{44E6E8D1-3175-4209-B9D0-0FB33562CAA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{17F3367E-618B-4999-8BF3-643ACD5FB411}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17F3367E-618B-4999-8BF3-643ACD5FB411}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17F3367E-618B-4999-8BF3-643ACD5FB411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E6E8D1-3175-4209-B9D0-0FB33562CAA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E6E8D1-3175-4209-B9D0-0FB33562CAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E6E8D1-3175-4209-B9D0-0FB33562CAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E6E8D1-3175-4209-B9D0-0FB33562CAA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
