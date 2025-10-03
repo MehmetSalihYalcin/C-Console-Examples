@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Test_15_Karakter_Sayacı
+{
+	internal class Program
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine(" ---------- Karakter Sayacı ---------- \n\n");
+
+			while (true)
+			{
+				int sayac = 0;
+				Console.Write("Metin giriniz : ");
+				string metin = Console.ReadLine();
+				metin = metin.ToLower();
+				string[] metinKarekterleri = new string[metin.Split(' ').Count()];
+				metinKarekterleri = metin.Split(' ');
+				Dictionary<string, int> kelimeSayilari = new Dictionary<string, int>();
+
+
+				foreach (string kelime in metinKarekterleri)
+				{
+					if (kelimeSayilari.ContainsKey(kelime))
+					{
+						kelimeSayilari[kelime]++;
+					}
+					else
+					{
+						kelimeSayilari.Add(kelime, 1);
+					}
+				}
+				foreach (var kelime in kelimeSayilari)
+				{ 
+					Console.WriteLine("Metin içinde " + kelime.Value + " adet " + kelime.Key + " var");
+				}
+			}
+		}
+	}
+}

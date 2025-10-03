@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-13 Basit ATM Simülasy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-14 Zamanlayıcı", "Test-14 Zamanlayıcı\Test-14 Zamanlayıcı.csproj", "{EC1D95E0-604E-45F4-A04B-17EBC27192B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-15 Karakter Sayacı", "Test-15 Karakter Sayacı\Test-15 Karakter Sayacı.csproj", "{3E7844D4-90C6-4899-9C2D-EA21C846E8E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{EC1D95E0-604E-45F4-A04B-17EBC27192B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC1D95E0-604E-45F4-A04B-17EBC27192B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC1D95E0-604E-45F4-A04B-17EBC27192B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E7844D4-90C6-4899-9C2D-EA21C846E8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E7844D4-90C6-4899-9C2D-EA21C846E8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E7844D4-90C6-4899-9C2D-EA21C846E8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E7844D4-90C6-4899-9C2D-EA21C846E8E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
