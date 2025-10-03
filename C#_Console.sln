@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-14 Zamanlayıcı", "Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-15 Karakter Sayacı", "Test-15 Karakter Sayacı\Test-15 Karakter Sayacı.csproj", "{3E7844D4-90C6-4899-9C2D-EA21C846E8E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-16 Tas-Kagit-Makas", "Test-16 Tas-Kagit-Makas\Test-16 Tas-Kagit-Makas.csproj", "{88C89B55-47F9-4602-84E0-D40970262EF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{3E7844D4-90C6-4899-9C2D-EA21C846E8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E7844D4-90C6-4899-9C2D-EA21C846E8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E7844D4-90C6-4899-9C2D-EA21C846E8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C89B55-47F9-4602-84E0-D40970262EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C89B55-47F9-4602-84E0-D40970262EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C89B55-47F9-4602-84E0-D40970262EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C89B55-47F9-4602-84E0-D40970262EF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
