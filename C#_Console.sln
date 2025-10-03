@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-12 Fibonacci Serisi", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-13 Basit ATM Simülasyonu", "Test-13 Basit ATM Simülasyonu\Test-13 Basit ATM Simülasyonu.csproj", "{7CE36856-3265-44D6-A7A2-C0FC95855BF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-14 Zamanlayıcı", "Test-14 Zamanlayıcı\Test-14 Zamanlayıcı.csproj", "{EC1D95E0-604E-45F4-A04B-17EBC27192B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{7CE36856-3265-44D6-A7A2-C0FC95855BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CE36856-3265-44D6-A7A2-C0FC95855BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CE36856-3265-44D6-A7A2-C0FC95855BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC1D95E0-604E-45F4-A04B-17EBC27192B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC1D95E0-604E-45F4-A04B-17EBC27192B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC1D95E0-604E-45F4-A04B-17EBC27192B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC1D95E0-604E-45F4-A04B-17EBC27192B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
