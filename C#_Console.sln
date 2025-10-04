@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-16 Tas-Kagit-Makas", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-17 Basit Sifre Uretici", "Test-17 Basit Sifre Uretici\Test-17 Basit Sifre Uretici.csproj", "{B216294A-EFA8-4D3F-A0FE-754F8F735B93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-18 Matematik Quiz Oyunu", "Test-18 Matematik Quiz Oyunu\Test-18 Matematik Quiz Oyunu.csproj", "{EEEF9DB6-A545-4030-84A3-1D6FDD4A607A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{B216294A-EFA8-4D3F-A0FE-754F8F735B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B216294A-EFA8-4D3F-A0FE-754F8F735B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B216294A-EFA8-4D3F-A0FE-754F8F735B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEEF9DB6-A545-4030-84A3-1D6FDD4A607A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEEF9DB6-A545-4030-84A3-1D6FDD4A607A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEEF9DB6-A545-4030-84A3-1D6FDD4A607A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEEF9DB6-A545-4030-84A3-1D6FDD4A607A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
