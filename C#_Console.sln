@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-18 Matematik Quiz Oyun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-19 Basit Çarpım Tablosu", "Test-19 Basit Çarpım Tablosu\Test-19 Basit Çarpım Tablosu.csproj", "{74978126-9F2F-49E3-901E-94C2E265A379}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-20 Metin Ters Çevirici", "Test-20 Metin Ters Çevirici\Test-20 Metin Ters Çevirici.csproj", "{B0D3556D-AF93-42B0-AD66-E88E82ACA786}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{74978126-9F2F-49E3-901E-94C2E265A379}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74978126-9F2F-49E3-901E-94C2E265A379}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74978126-9F2F-49E3-901E-94C2E265A379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D3556D-AF93-42B0-AD66-E88E82ACA786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D3556D-AF93-42B0-AD66-E88E82ACA786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D3556D-AF93-42B0-AD66-E88E82ACA786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D3556D-AF93-42B0-AD66-E88E82ACA786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

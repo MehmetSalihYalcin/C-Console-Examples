@@ -18,12 +18,12 @@ namespace Test_15_Karakter_Sayacı
 				Console.Write("Metin giriniz : ");
 				string metin = Console.ReadLine();
 				metin = metin.ToLower();
-				string[] metinKarekterleri = new string[metin.Split(' ').Count()];
-				metinKarekterleri = metin.Split(' ');
+				string[] metinKelimeleri = new string[metin.Split(' ').Count()];
+				metinKelimeleri = metin.Split(' ');
 				Dictionary<string, int> kelimeSayilari = new Dictionary<string, int>();
 
 
-				foreach (string kelime in metinKarekterleri)
+				foreach (string kelime in metinKelimeleri)
 				{
 					if (kelimeSayilari.ContainsKey(kelime))
 					{
