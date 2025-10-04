@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-17 Basit Sifre Uretici
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-18 Matematik Quiz Oyunu", "Test-18 Matematik Quiz Oyunu\Test-18 Matematik Quiz Oyunu.csproj", "{EEEF9DB6-A545-4030-84A3-1D6FDD4A607A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-19 Basit Çarpım Tablosu", "Test-19 Basit Çarpım Tablosu\Test-19 Basit Çarpım Tablosu.csproj", "{74978126-9F2F-49E3-901E-94C2E265A379}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{EEEF9DB6-A545-4030-84A3-1D6FDD4A607A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEEF9DB6-A545-4030-84A3-1D6FDD4A607A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEEF9DB6-A545-4030-84A3-1D6FDD4A607A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74978126-9F2F-49E3-901E-94C2E265A379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74978126-9F2F-49E3-901E-94C2E265A379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74978126-9F2F-49E3-901E-94C2E265A379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74978126-9F2F-49E3-901E-94C2E265A379}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
