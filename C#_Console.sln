@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-20 Metin Ters Çeviric
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-21 Kişisel Ajanda", "Test-21 Kişisel Ajanda\Test-21 Kişisel Ajanda.csproj", "{B597BE82-F6CA-43F0-A910-711A86D2410C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-22 Dosya Tabanlı Not Defteri", "Test-22 Dosya Tabanlı Not Defteri\Test-22 Dosya Tabanlı Not Defteri.csproj", "{AE71F088-F5A3-42B4-B966-37DA6E7B93A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-23 Kütüphane Yönetim Sistemi", "Test-23 Kütüphane Yönetim Sistemi\Test-23 Kütüphane Yönetim Sistemi.csproj", "{3D784F17-23A9-4E17-A070-D13714A7AA57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{B597BE82-F6CA-43F0-A910-711A86D2410C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B597BE82-F6CA-43F0-A910-711A86D2410C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B597BE82-F6CA-43F0-A910-711A86D2410C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE71F088-F5A3-42B4-B966-37DA6E7B93A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE71F088-F5A3-42B4-B966-37DA6E7B93A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE71F088-F5A3-42B4-B966-37DA6E7B93A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE71F088-F5A3-42B4-B966-37DA6E7B93A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D784F17-23A9-4E17-A070-D13714A7AA57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D784F17-23A9-4E17-A070-D13714A7AA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D784F17-23A9-4E17-A070-D13714A7AA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D784F17-23A9-4E17-A070-D13714A7AA57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
