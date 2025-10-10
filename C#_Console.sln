@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-19 Basit Çarpım Tabl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-20 Metin Ters Çevirici", "Test-20 Metin Ters Çevirici\Test-20 Metin Ters Çevirici.csproj", "{B0D3556D-AF93-42B0-AD66-E88E82ACA786}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-21 Kişisel Ajanda", "Test-21 Kişisel Ajanda\Test-21 Kişisel Ajanda.csproj", "{B597BE82-F6CA-43F0-A910-711A86D2410C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{B0D3556D-AF93-42B0-AD66-E88E82ACA786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0D3556D-AF93-42B0-AD66-E88E82ACA786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0D3556D-AF93-42B0-AD66-E88E82ACA786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B597BE82-F6CA-43F0-A910-711A86D2410C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B597BE82-F6CA-43F0-A910-711A86D2410C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B597BE82-F6CA-43F0-A910-711A86D2410C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B597BE82-F6CA-43F0-A910-711A86D2410C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
