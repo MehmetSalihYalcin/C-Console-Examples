@@ -13,6 +13,7 @@ namespace Test_22_Dosya_Tabanlı_Not_Defteri
 		{
 			string filePath = "Gunluk_DB.txt";
 			var gunluk = new Gunluk();
+			var fakeModel = new List<Gunluk>();
 			int count = 1;
 
 			while (true)
@@ -39,7 +40,7 @@ namespace Test_22_Dosya_Tabanlı_Not_Defteri
 							Tarih = DateTime.Now
 						};
 						string yeniVeri = $"{gunluk.Id},{gunluk.Gunluk_Yazısı},{gunluk.Tarih.ToShortDateString()}";
-						File.WriteAllText(filePath, yeniVeri + Environment.NewLine);
+						File.AppendAllText(filePath, yeniVeri + Environment.NewLine);
 						count++;
 						break;
 					case 2:
@@ -53,21 +54,58 @@ namespace Test_22_Dosya_Tabanlı_Not_Defteri
 							Console.WriteLine();
 						}
 						break;
-					case 3:
+					case 3:  
 						Console.Write("Silinecek günlük id : ");
 						int sil = Convert.ToInt32(Console.ReadLine());
-
-						string[] silinecekSatir = File.ReadAllLines(filePath);
-						foreach (var item in silinecekSatir)
+						if (sil > 0) // ID'nin geçerli bir sayı olduğunu kontrol et
 						{
-							string[] parcalar = item.Split(',');
-							if (Convert.ToInt32(parcalar[0]) == sil)
+							var silData = File.ReadAllLines(filePath);
+							bool bulundu = false;
+
+							// Dosyadan verileri oku ve fakeModel'e yükle
+							foreach (var line in silData)
 							{
-								var data = $"{parcalar[0]},{parcalar[1]},{parcalar[2]}";
-								silinecekSatir.ToList().Remove(data) ;
+								string[] parcalar = line.Split(',');
+								if (parcalar.Length == 3) // Satırın doğru formatta olduğunu kontrol et
+								{
+									var kelime = new Gunluk
+									{
+										Id = int.Parse(parcalar[0]), 
+										 Gunluk_Yazısı = parcalar[1],
+										Tarih = DateTime.Parse(parcalar[2])
+									};
+									if (kelime.Id != sil) // Silinecek ID değilse listeye ekle
+									{
+										fakeModel.Add(kelime);
+									}
+									else
+									{
+										bulundu = true; // Silinecek kelime bulundu
+									}
+								}
 							}
+
+							if (!bulundu)
+							{
+								Console.WriteLine("Bu ID'ye sahip bir günlük bulunamadı.");
+								break;
+							}
+
+							// Dosyayı güncelle
+							File.WriteAllText(filePath, string.Empty); // Dosyayı temizle
+							foreach (var item in fakeModel)
+							{
+								string data = $"{item.Id},{item.Gunluk_Yazısı} ,{item.Tarih.ToShortDateString()}";
+								File.AppendAllText(filePath, data + Environment.NewLine);
+							}
+
+							Console.WriteLine("Başarılı bir şekilde gunlük silindi");
 						}
-						break;
+						else
+						{
+							Console.WriteLine("Boş veri girilemez !!!");
+						}
+						break; 
 					default:
 						break;
 				}

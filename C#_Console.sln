@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-22 Dosya Tabanlı Not 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-23 Kütüphane Yönetim Sistemi", "Test-23 Kütüphane Yönetim Sistemi\Test-23 Kütüphane Yönetim Sistemi.csproj", "{3D784F17-23A9-4E17-A070-D13714A7AA57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-24 Sözlük Uygulaması", "Test-24 Sözlük Uygulaması\Test-24 Sözlük Uygulaması.csproj", "{662E4096-E6B5-4013-ACB4-31DB74D42E73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{3D784F17-23A9-4E17-A070-D13714A7AA57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D784F17-23A9-4E17-A070-D13714A7AA57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D784F17-23A9-4E17-A070-D13714A7AA57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662E4096-E6B5-4013-ACB4-31DB74D42E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662E4096-E6B5-4013-ACB4-31DB74D42E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662E4096-E6B5-4013-ACB4-31DB74D42E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662E4096-E6B5-4013-ACB4-31DB74D42E73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
