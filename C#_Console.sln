@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-23 Kütüphane Yöneti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-24 Sözlük Uygulaması", "Test-24 Sözlük Uygulaması\Test-24 Sözlük Uygulaması.csproj", "{662E4096-E6B5-4013-ACB4-31DB74D42E73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-25 Basit Banka Sistemi", "Test-25 Basit Banka Sistemi\Test-25 Basit Banka Sistemi.csproj", "{769CF7CA-3EFD-4379-A867-9EAB60C8E218}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{662E4096-E6B5-4013-ACB4-31DB74D42E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{662E4096-E6B5-4013-ACB4-31DB74D42E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{662E4096-E6B5-4013-ACB4-31DB74D42E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{769CF7CA-3EFD-4379-A867-9EAB60C8E218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769CF7CA-3EFD-4379-A867-9EAB60C8E218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769CF7CA-3EFD-4379-A867-9EAB60C8E218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{769CF7CA-3EFD-4379-A867-9EAB60C8E218}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
