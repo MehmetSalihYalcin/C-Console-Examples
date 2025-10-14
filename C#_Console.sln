@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-25 Basit Banka Sistemi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-26 Metin Şifreleyici", "Test-26 Metin Şifreleyici\Test-26 Metin Şifreleyici.csproj", "{DC716B20-A5A9-4447-A114-0B433AD1F11A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test-27 Basit Sınav Geçmişi Saklama", "Test-27 Basit Sınav Geçmişi Saklama\Test-27 Basit Sınav Geçmişi Saklama.csproj", "{D4D044C5-5248-4BB0-BEE1-32BF4C8DC465}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{DC716B20-A5A9-4447-A114-0B433AD1F11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC716B20-A5A9-4447-A114-0B433AD1F11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC716B20-A5A9-4447-A114-0B433AD1F11A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D044C5-5248-4BB0-BEE1-32BF4C8DC465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D044C5-5248-4BB0-BEE1-32BF4C8DC465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D044C5-5248-4BB0-BEE1-32BF4C8DC465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D044C5-5248-4BB0-BEE1-32BF4C8DC465}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
